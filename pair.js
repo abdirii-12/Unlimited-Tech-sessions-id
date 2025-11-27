@@ -75,13 +75,13 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "ARIZAK-MD~" + string_session;
+                        let md = "UNLIMITED-TECH~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*ᎻᎬᏞᏞϴ ARIZAK-ᎷᎠ ႮՏᎬᎡՏ! 👋🏻* 
+                        let desc = `*ᎻᎬᏞᏞϴ UNLIMITED-TECH ႮՏᎬᎡՏ! 👋🏻* 
 
 > Do not share your session id with your gf 😂.
 
- * ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ ARIZAK-ᎷᎠ 🚩* 
+ * ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ UNLIMITED-TECH 🚩* 
 
 > ᎫϴᏆΝ ᎷᎽ ᏟᎻᎪΝΝᎬᏞ :- ⤵️
  
@@ -91,12 +91,12 @@ https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l
 
 https://github.com/arizak-md/arizak
 
-> *© Powered BY ARIZAK ͲᎬᏟᎻ 🖤*`; 
+> *© Powered BY UNLIMITED-TECH 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ARIZAK ͲᎬᏟᎻ",
+title: "UNLIMITED-TECH",
 thumbnailUrl: "https://files.catbox.moe/1um7fs.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l",
 mediaType: 1,
@@ -112,7 +112,7 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ARIZAK-ᎷᎠ",
+title: "UNLIMITED-TECH",
 thumbnailUrl: "https://files.catbox.moe/1um7fs.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l",
 mediaType: 2,
